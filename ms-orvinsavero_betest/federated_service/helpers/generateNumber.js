@@ -1,0 +1,1 @@
+module.exports = Math.floor(100000000000000 + Math.random() * 900000000000000)

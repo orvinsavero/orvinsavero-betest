@@ -55,7 +55,7 @@
 - Get AccountNumber from Redis first, if it does not exit, get data from DB through backend_microservice
 ```
 
-## Read User by Account Number
+## Read User by Identity Number
 
 - route:
   - `GET /read/identity_number/:idNum`

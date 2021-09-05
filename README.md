@@ -5,7 +5,7 @@
 - route:
   - `POST /generate_token`
 - response:
-  - body
+  - headers
     - `Authorization`: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOjIwNDIwNDU3Mjc5NzE5NCwidmFsdWUiOjIwNDIwNDU3Mjc5NzE5NCwiaWF0IjoxNjMwODIzMjg1fQ.Yi5VLRNPh0rZ-6mof8OYJFiwn768bze6KorgjDOpE4U`
   - body
     - `200`: `Token Generated`

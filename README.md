@@ -28,7 +28,7 @@
   - body
     - `{ userName: 'userName', accountNumber: 'accountNumber', emailAddress: 'emailAddress@mail.com, identityNumber: identityNumber }`
 - response:
-  - `201`: `{ _id: id, userName: 'userName', accountNumber: 'accountNumber', emailAddress: 'emailAddress@mail.com, identityNumber: identityNumber }`
+  - `201`: `{ _id: 'id', userName: 'userName', accountNumber: 'accountNumber', emailAddress: 'emailAddress@mail.com', identityNumber: 'identityNumber' }`
 - error:
   - `500 Internal Server Error`
   - `400 Validation Error`
@@ -46,7 +46,7 @@
   - headers
     - `{ Authorization: token }`
 - response
-  - `201`: `{ _id: id, userName: 'userName', accountNumber: 'accountNumber', emailAddress: 'emailAddress@mail.com, identityNumber: identityNumber }`
+  - `201`: `{ _id: 'id', userName: 'userName', accountNumber: 'accountNumber', emailAddress: 'emailAddress@mail.com', identityNumber: 'identityNumber' }`
 - error:
   - `500 Internal Server Error`
   - `400 Bad Request`
@@ -63,7 +63,7 @@
   - headers
     - `{ Authorization: token }`
 - response
-  - `200`: `{ _id: id, userName: 'userName', accountNumber: 'accountNumber', emailAddress: 'emailAddress@mail.com, identityNumber: identityNumber }`
+  - `200`: `{ _id: 'id', userName: 'userName', accountNumber: 'accountNumber', emailAddress: 'emailAddress@mail.com', identityNumber: 'identityNumber' }`
 - error:
   - `500 Internal Server Error`
   - `400 Bad Request`
@@ -81,7 +81,7 @@
   - headers
     - `{ Authorization: token }`
   - body
-    - `{ userName: 'userName', emailAddress: 'emailAddress@mail.com, identityNumber: identityNumber }`
+    - `{ userName: 'userName', emailAddress: 'emailAddress@mail.com', identityNumber: 'identityNumber' }`
 - response
   - `200`: `{ n: 1, ok: 1, nModified: 1 }`
 - error:
@@ -100,7 +100,7 @@
   - headers
     - `{ Authorization: token }`
   - body
-    - `{ userName: 'userName', emailAddress: 'emailAddress@mail.com, accountNumber: accountNumber }`
+    - `{ userName: 'userName', emailAddress: 'emailAddress@mail.com', accountNumber: 'accountNumber' }`
 - response
   - `200`: `{ n: 1, ok: 1, nModified: 1 }`
 - error:

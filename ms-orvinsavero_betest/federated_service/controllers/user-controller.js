@@ -38,7 +38,7 @@ class UserController{
                     console.log(`Error: ${err}`)
                     next()
                 };
-                redis.expire(`accNum_${accountNumber}`, 5);
+                redis.expire(`accNum_${accountNumber}`, 1800);
 
                   res.status(200).json(data)
                 })
@@ -65,6 +65,7 @@ class UserController{
                     console.log(`Error: ${err}`)
                     next()
                 };
+                redis.expire(`idNum${identityNumber}`, 1800);
                   res.status(200).json(data)
                 })
                 .catch(next);

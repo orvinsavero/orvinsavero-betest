@@ -1,2 +1,2 @@
-./ms-orvinsavero_betest/backend_service/node_modules
-./ms-orvinsavero_betest/federated_service/node_modules
+/ms-orvinsavero_betest/backend_service/node_modules
+/ms-orvinsavero_betest/federated_service/node_modules

@@ -15,6 +15,7 @@ class Controller{
             key: keyNumber,
             value: valueNumber
         })
+        redis.expire(keyNumber, 1800);
         res.header('Authorization', signed)
         res.status(200).json('Token Generated')
     }
